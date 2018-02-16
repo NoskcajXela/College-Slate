@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+.Extracurricular-Main {
+    padding: 1rem 0 0 1.625rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.BoilerLink-Image {
+    width: 12.5rem;
+    height: 5rem;
+    /*background-color: white;
+    background-image: url(./Blackboard_Inc._logo.png);*/
+    /*background-size: contain;
+    background-position: */
+    /*background-position: 50% 35%;*/
+    border-radius: 5px;
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.2);
+    margin: 0 1.75rem 1rem 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 2.5rem;
+    line-height: 4.75rem;
+    background-color: black;
+    color: #BA9D52;
+}
+
+.BoilerLink a {
+    text-align: center;
+    text-decoration: none;
+    line-height: 1.5rem;
+    color: black;
+}
+
+/*.BoilerLink-y {
+    width: 100%;
+    height: 100%;
+    opacity: 0.40;
+}*/
+
+.BoilerLink-Image:hover {
+    border-radius: 2.5px;
+    background-color: lightgray;
+}

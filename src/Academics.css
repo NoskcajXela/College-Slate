@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Expanded');
+
+.Acad-Main {
+    padding: 1rem 0 0 1.625rem;
+    display: flex;
+    flex-wrap: wrap;
+}

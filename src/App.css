@@ -1,28 +1,126 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Expanded|Montserrat|Oswald:700');
+
+html {
+    background: url(shyam-sundar-431441.jpg) no-repeat center center fixed;
+    background-size: cover;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.App {
+    /*background-color: #2F4F4F;*/
 }
 
 .App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+  height: 11rem;
+  padding: 0rem 2rem;
 }
 
-.App-title {
-  font-size: 1.5em;
+.App-heading {
+    background-color: white;
+    opacity: 0.55;
+    width: 21.5rem;
+    border-radius: 7.5px;
 }
 
-.App-intro {
-  font-size: large;
+.Title-Link {
+    text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.App-heading h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 3.5rem;
+    color: black;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    margin-bottom: 0rem;
+}
+
+.nav-links {
+    list-style: none;
+    padding-left: 0;
+    margin: none;
+}
+
+.nav-links li {
+    background-color: white;
+    opacity: 0.55;
+    margin-right: 0.1875rem;
+    padding: 0.15625rem 0.3125rem 0.15625rem 0.3125rem;
+    border-radius: 2.5px;
+    display: inline-block;
+    font-family: "Encoded Sans Expanded", sans-serif;
+    font-size: 1.375rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: darkgray;
+}
+
+.nav-links a:hover {
+    color: black;
+}
+
+.App-Main {
+    padding-left: 2rem;
+    display: inline-flex;
+    width: 97%;
+}
+
+.App-Sidebar {
+    width: 21%;
+    border-radius: 2.5px;
+    opacity: 0.55;
+}
+
+.App-Sidebar-Weather {
+    background-color: white;
+    height: 10rem;
+    border-radius: 2.5px;
+    padding: 0.25rem 0 0 0.5rem;
+}
+
+.App-Sidebar-Weather h3 {
+    margin: 0;
+}
+
+.App-Sidebar-Day {
+    background-color: white;
+    height: 21rem;
+    border-radius: 2.5px;
+}
+
+.App-Sidebar-Day h3 {
+    margin: 0;
+}
+
+.App-Container {
+    background-color: white;
+    opacity: 0.55;
+    width: 75%;
+    height: 28rem;
+    margin-right: 2%;
+    /*width: 78rem;*/
+    border-radius: 2.5px;
+}
+
+.App-Switch {
+    position: relative;
+}
+
+.App-Space {
+    height: 5rem;
+}
+
+.App-Footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 6.875rem;
+}
+
+.App-Footer p {
+    font-family: 'Montserrat', sans-serif;
+    color: darkgray;
+    text-align: right;
+    font-size: 0.75rem;
 }

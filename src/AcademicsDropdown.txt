@@ -1,0 +1,51 @@
+HTML:
+
+<div className="Acad-Dropdown">
+    <li>
+        <NavLink to="/academics">Academics&#x25BC;</NavLink>
+    </li>
+    <div className="Acad-Dropdown-Content">
+        <NavLink to="/academics/my-classes">My Classes</NavLink>
+        <NavLink to="/academics/study-groups">Study Groups</NavLink>
+    </div>
+</div>
+
+CSS:
+
+.Acad-Dropdown {
+    font-family: 'Encode Sans Expanded', sans-serif;
+    font-size: 1.375rem;
+    float: left;
+    overflow: hidden;
+}
+
+.Acad-Dropdown-Content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    opacity: 0.75;
+    min-width: 1rem;
+    width: 8.7rem;
+    z-index: 1;
+    border-radius: 2.5px;
+}
+
+.Acad-Dropdown-Content a {
+    float: none;
+    color: gray;
+    padding: 7.5px 12px;
+    text-decoration: none;
+    display: block;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.Acad-Dropdown-Content a:hover {
+    background-color: lightgray;
+    color: black;
+    border-radius: 2.5px;
+}
+
+.Acad-Dropdown:hover .Acad-Dropdown-Content {
+    display: block;
+}

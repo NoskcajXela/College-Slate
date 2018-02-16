@@ -1,0 +1,11 @@
+.Schedule-Main {
+    background-color: white;
+    margin-left: 2rem;
+    width: 95%;
+    opacity: 0.55;
+    border-radius: 2.5px;
+}
+
+.Schedule-Main a {
+    color: green;
+}

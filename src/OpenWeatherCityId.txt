@@ -1,0 +1,9 @@
+{
+    "id": 4928096,
+    "name": "West Lafayette",
+    "country": "US",
+    "coord": {
+      "lon": -86.908073,
+      "lat": 40.425869
+    }
+  },

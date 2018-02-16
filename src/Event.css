@@ -1,0 +1,15 @@
+.Event-Main {
+    width: 48%;
+    height: 20rem;
+    margin-right: 1.5rem;
+    border-radius: 2.5px;
+    background-color: white;
+}
+
+.Event-Image {
+    width: 100%;
+    height: 20rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
