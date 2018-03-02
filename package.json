@@ -3,15 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "chalk": "^2.3.1",
     "gh-pages": "^1.1.0",
     "react": "^16.2.0",
+    "react-device-detect": "^0.1.0",
     "react-dom": "^16.2.0",
     "react-router-dom": "^4.2.2"
   },
   "devDependencies": {
     "react-scripts": "1.1.0"
   },
-  "homepage": "https://darktachyon.github.io/College-Slate",
+  "homepage": "https://noskcajxela.github.io/college-slate",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

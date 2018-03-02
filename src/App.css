@@ -17,7 +17,7 @@ html {
 .App-heading {
     background-color: white;
     opacity: 0.55;
-    width: 21.5rem;
+    width: 28%;
     border-radius: 7.5px;
 }
 
@@ -60,48 +60,6 @@ html {
     color: black;
 }
 
-.App-Main {
-    padding-left: 2rem;
-    display: inline-flex;
-    width: 97%;
-}
-
-.App-Sidebar {
-    width: 21%;
-    border-radius: 2.5px;
-    opacity: 0.55;
-}
-
-.App-Sidebar-Weather {
-    background-color: white;
-    height: 10rem;
-    border-radius: 2.5px;
-    padding: 0.25rem 0 0 0.5rem;
-}
-
-.App-Sidebar-Weather h3 {
-    margin: 0;
-}
-
-.App-Sidebar-Day {
-    background-color: white;
-    height: 21rem;
-    border-radius: 2.5px;
-}
-
-.App-Sidebar-Day h3 {
-    margin: 0;
-}
-
-.App-Container {
-    background-color: white;
-    opacity: 0.55;
-    width: 75%;
-    height: 28rem;
-    margin-right: 2%;
-    /*width: 78rem;*/
-    border-radius: 2.5px;
-}
 
 .App-Switch {
     position: relative;

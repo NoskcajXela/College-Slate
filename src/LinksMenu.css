@@ -1,0 +1,25 @@
+.LinksMenu-Main {
+    list-style: none;
+    padding-left: 0;
+    margin: none;
+}
+
+.LinksMenu-Main li {
+    background-color: white;
+    opacity: 0.55;
+    margin-right: 0.1875rem;
+    padding: 0.15625rem 0.3125rem 0.15625rem 0.3125rem;
+    border-radius: 2.5px;
+    display: inline-block;
+    font-family: "Encoded Sans Expanded", sans-serif;
+    font-size: 1.375rem;
+}
+
+.LinksMenu-Main a {
+    text-decoration: none;
+    color: darkgray;
+}
+
+.LinksMenu-Main a:hover {
+    color: black;
+}

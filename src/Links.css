@@ -1,0 +1,42 @@
+.Links-Main {
+    padding-left: 2rem;
+    display: inline-flex;
+    width: 97%;
+}
+
+.Links-Sidebar {
+    width: 21%;
+    border-radius: 2.5px;
+    opacity: 0.55;
+}
+
+.Links-Sidebar-Weather {
+    background-color: white;
+    height: 10rem;
+    border-radius: 2.5px;
+    padding: 0.25rem 0 0 0.5rem;
+}
+
+.Links-Sidebar-Weather h3 {
+    margin: 0;
+}
+
+.Links-Sidebar-Day {
+    background-color: white;
+    height: 21rem;
+    border-radius: 2.5px;
+}
+
+.Links-Sidebar-Day h3 {
+    margin: 0;
+}
+
+.Links-Container {
+    background-color: white;
+    opacity: 0.55;
+    width: 75%;
+    height: 28rem;
+    margin-right: 2%;
+    /*width: 78rem;*/
+    border-radius: 2.5px;
+}
